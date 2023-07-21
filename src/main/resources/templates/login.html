@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html xmlns:th="https://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +20,7 @@
       <div class="card-body">
         <form method="post" action="/login">
           <div class="mb-3">
+          <p style="color:red">[[${message}]]</p>
             <label for="username" class="form-label">Username</label>
             <div class="input-group">
               <span class="input-group-text"><i class="fas fa-user"></i></span>

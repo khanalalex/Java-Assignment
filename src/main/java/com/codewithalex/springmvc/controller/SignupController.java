@@ -30,7 +30,10 @@ public class SignupController {
 		
 		user.setPassword(DigestUtils.md5DigestAsHex(user.getPassword().getBytes()));
 		userRepo.save(user);
+		
 		return "login";
+		
+		
 		
 		
 	}

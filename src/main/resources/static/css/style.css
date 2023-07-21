@@ -1,3 +1,8 @@
+
+/* css for login and signup
+*/
+
+
 body {
   background-color: #f8f9fa;
 }
@@ -77,3 +82,48 @@ body {
 .signup-container .form-select {
   width: 100%;
 }
+
+
+
+
+
+/* css for home */
+
+
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.welcome-message {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.current-date-time {
+  font-size: 16px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+

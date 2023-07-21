@@ -36,6 +36,7 @@ public class LoginController {
 		return "home";
 	
 		}
+		model.addAttribute("message", "user not found !!!");
 		return"login";
 		
 		
