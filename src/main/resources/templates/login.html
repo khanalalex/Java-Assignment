@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  
   
   
   <title>Login Form</title>
@@ -24,16 +26,17 @@
             <label for="username" class="form-label">Username</label>
             <div class="input-group">
               <span class="input-group-text"><i class="fas fa-user"></i></span>
-              <input type="text" name="username" class="form-control" id="username" placeholder="Enter your username">
+              <input type="text" name="username" class="form-control" id="username" placeholder="Enter your username" required>
             </div>
           </div>
           <div class="mb-3">
             <label for="password" class="form-label">Password</label>
             <div class="input-group">
               <span class="input-group-text"><i class="fas fa-lock"></i></span>
-              <input type="password" name="password" class="form-control" id="password" placeholder="Enter your password">
+              <input type="password" name="password" class="form-control" id="password" placeholder="Enter your password" required>
             </div>
           </div>
+           <div class="g-recaptcha" data-sitekey="6LeQf0AnAAAAALIEjzGawB6n-QDuvMPDB02kRSI4"></div>
           <button type="submit" class="btn btn-primary">Login</button>
         </form>
       </div>
